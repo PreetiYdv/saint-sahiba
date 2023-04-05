@@ -66,7 +66,6 @@
 
 .header_head {
     font-weight: 700;
-    font-size: 96px;
     color: #FFFFFF;
 }
 
@@ -120,7 +119,6 @@
 .btn_learn {
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
     width: 150px;
     height: 46px;
     color: #FFFFFF;
@@ -237,21 +235,18 @@
 .rect_head {
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
     color: #FFFFFF;
 }
 
 .rect_p {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     color: #B9B9B9;
 }
 
 .sec5_head {
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
     line-height: 128%;
     text-align: center;
     color: #FFFFFF;
@@ -310,7 +305,6 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -324,7 +318,6 @@ table tr th {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
     line-height: 180%;
     text-align: center;
     color: #FFFFFF;
@@ -334,7 +327,6 @@ table tr td {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 180%;
     text-align: center;
     color: #B9B9B9;
@@ -410,7 +402,6 @@ table tr td {
 .para {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 180%;
     color: #B6B6B6;
 }
