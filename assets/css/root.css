@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    /* font size */
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-reg: 20px;
+    --fs-lg: 22px;
+    --fs-xl: 30px;
+    --fs-xxl: 50px;
+
+    /* font family */
+    --ff-poppins: 'poppins', sans-serif;
+}
+
+
+:root {
+    /* font family */
+    --ff-poppins: 'poppins', sans-serif;
+}
+
+.ff_poppins {
+    font-family: var(--ff-poppins);
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_reg {
+    font-size: var(--fs-reg);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+
+@media (min-width:768px) {
+    :root {
+        /* font size */
+        --fs-xsm: 12px;
+        --fs-sm: 18px;
+        --fs-md: 18px;
+        --fs-reg: 25px;
+        --fs-lg: 30px;
+        --fs-xl: 40px;
+        --fs-xxl: 60px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font size */
+        --fs-xsm: 14px;
+        --fs-sm: 18px;
+        --fs-md: 22px;
+        --fs-reg: 28px;
+        --fs-lg: 36px;
+        --fs-xl: 48px;
+        --fs-xxl: 70px;
+    }
+}
+
+@media (min-width:1200) {
+    :root {
+        /* font size */
+
+        --fs-xxl: 96px;
+    }
+}
