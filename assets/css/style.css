@@ -5,7 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
 .bg-image {
     background-image: url('../images/moon.png');
     background-repeat: no-repeat;
@@ -20,16 +19,13 @@
 
 .nav-link {
     font-weight: 400;
-    font-size: 18px;
     line-height: 180%;
     color: #FFFFFF;
 }
 
 .navbar-nav {
-    --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 1.5rem;
     --bs-nav-link-hover-color: #F06500;
-    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -468,6 +464,9 @@ table tr td {
     background-image: url(../images/up-arrow.png);
     background-color: #000000;
     transform: none;
+}
+.accordion-button::after {
+    background-image: url(../images/up-arrow.png);
 }
 
 .accordion-button {
